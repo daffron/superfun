@@ -1,29 +1,34 @@
 .jumbotron {
-    background-color: #f4511e; /* Orange */
+    background-color: #f4511e;
+    /* Orange */
     color: #ffffff;
     padding: 100px 25px;
 }
 
 .container-fluid {
-  padding: 60px 50px;
+    padding: 60px 50px;
 }
 
+.backgroundtwo{
+  background-color: #f4511e;
+}
 .logo {
     font-size: 200px;
 }
+
 @media screen and (max-width: 768px) {
     .col-sm-4 {
         text-align: center;
         margin: 25px 0;
     }
     .values {
-      padding-right: none;
+        padding-right: none;
     }
 }
 
 .values {
-  text-align: right;
-  padding-right: 70px;
+    text-align: right;
+    padding-right: 70px;
 }
 
 .logo-small {
@@ -48,26 +53,59 @@
     margin-bottom: 10px;
 }
 
+.topmargin {
+  margin-top: 90px;
+}
 .picture {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .picturescroll {
-  text-align: center;
+    text-align: center;
 }
 
 .video {
-  text-align: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+
+
+.content, .youtubevideowrap, .videocontent {
+	width:80%;
+	max-width: 640px;
+	margin: 0 auto;
+}
+.videocontent2 {
+
+	min-width: 230px;
 
 }
+
 /*Carousel
 */
 
-
-.carousel-inner > .item > img {
+.carousel-inner>.item>img {
     margin: 0 auto;
 }
+
 .carousel-control.right, .carousel-control.left {
     background-image: none;
     color: #f4511e;
@@ -93,10 +131,12 @@
     font-style: normal;
 }
 
+
 /*Navbar*/
+
 navbar {
     margin-bottom: 0;
-    background-color: #f4511e;
+    background-color: #f4511e !important;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -117,46 +157,54 @@ navbar {
 .navbar-default .navbar-toggle {
     border-color: transparent;
     color: #fff !important;
+
+}
+.navbar-default {
+  background-color: gray !important;
 }
 
+
 /*Foot*/
+
 footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
     color: #f4511e;
 }
 
-/*Slide in*/
-.slideanim {visibility:hidden;}
-.slide {
-    /* The name of the animation */
-    animation-name: slide;
-    -webkit-animation-name: slide;
-    /* The duration of the animation */
-    animation-duration: 1s;
-    -webkit-animation-duration: 1s;
-    /* Make the element visible */
-    visibility: visible;
-}
-
-
-@keyframes slide {
-    0% {
-        opacity: 0;
-        transform: translateY(70%);
+@media screen and (min-width: 768px) {
+    /*Slide in*/
+    .slideanim {
+        visibility: hidden;
     }
-    100% {
-        opacity: 1;
-        transform: translateY(0%);
+    .slide {
+        /* The name of the animation */
+        animation-name: slide;
+        -webkit-animation-name: slide;
+        /* The duration of the animation */
+        animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        /* Make the element visible */
+        visibility: visible;
     }
-}
-@-webkit-keyframes slide {
-    0% {
-        opacity: 0;
-        -webkit-transform: translateY(70%);
+    @keyframes slide {
+        0% {
+            opacity: 0;
+            transform: translateY(70%);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
+        }
     }
-    100% {
-        opacity: 1;
-        -webkit-transform: translateY(0%);
+    @-webkit-keyframes slide {
+        0% {
+            opacity: 0;
+            -webkit-transform: translateY(70%);
+        }
+        100% {
+            opacity: 1;
+            -webkit-transform: translateY(0%);
+        }
     }
 }
