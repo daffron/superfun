@@ -48,8 +48,26 @@
     margin-bottom: 10px;
 }
 
+.picture {
+  max-width: 100%;
+  height: auto;
+}
+
+.picturescroll {
+  text-align: center;
+}
+
+.video {
+  text-align: center;
+
+}
 /*Carousel
 */
+
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
 .carousel-control.right, .carousel-control.left {
     background-image: none;
     color: #f4511e;
