@@ -172,6 +172,10 @@ footer .glyphicon {
     color: #f4511e;
 }
 
+.foot {
+  font-size: 12px;
+}
+
 @media screen and (min-width: 768px) {
     /*Slide in*/
     .slideanim {
