@@ -1,3 +1,15 @@
+* {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+#services, p, .fontone {
+  font-family: 'Baloo', cursive;
+}
+
+p {
+  font-size: 16px;
+}
+
 .jumbotron {
     background-color: #f4511e;
     /* Orange */
@@ -11,6 +23,7 @@
 
 .backgroundtwo{
   background-color: #f4511e;
+  color: white;
 }
 .logo {
     font-size: 200px;
