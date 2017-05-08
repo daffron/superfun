@@ -120,7 +120,7 @@ Thank you for contacting me, Ill be in touch very soon
   </nav>
   <div class="jumbotron text-center">
     <h1>Welcome to SuperFunParties</h1>
-    <p>I specialize in childrens parties</p>
+    <p>Making Kids Parties Superfun!</p>
   </div>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -138,7 +138,7 @@ Thank you for contacting me, Ill be in touch very soon
       </div>
 
       <div class="item">
-        <img src="http://placehold.it/800x450" class="picturescroll img-rounded" width="800">
+        <img src="images/park.jpg" class="picturescroll img-rounded" width="800">
       </div>
 
       <div class="item">
@@ -163,16 +163,19 @@ Thank you for contacting me, Ill be in touch very soon
   <div class="container-fluid slideanim backgroundtwo topmargin" id="about">
     <div class="row">
       <div class="col-sm-8">
-        <h2>About Company</h2>
+        <h2>About The Company</h2>
         <h4 class='fontone'>A bit about Trey, the company owner:</h4>
         <p>
 
-          Hi there!<br> I've been working in kids entertainment for over a year and have worked with various kids party companies.<br> I discovered early on that it's something I love to do and would like to turn into a professional business of my own
+          Hi there!<br>
+          I grew up on Waiheke Island and have lived in Auckland my whole life. I love music, art, working out, comedy, creating crafty profects and being a dad to my 2 year old daughter!<br>
+          I've been working in kids entertainment for over a year and have worked with various kids party companies.
+          <br> I discovered early on that it's something I love to do and would like to turn it into a professional business of my own
           so I finished my full time job and focused on building my skills and working full time in the kids party industry (this was also motivated by my daughter being born and wanting more time to spend with her!)</p>
         <a href="#contact"><button class="btn btn-default btn-lg" >Get in Touch</button></a>
       </div>
       <div class="col-sm-4">
-        <img src="http://placehold.it/350x200" class="picture img-rounded">
+        <img src="images/aboutme.jpg" class="picture img-rounded" width="280">
       </div>
     </div>
   </div>
@@ -187,7 +190,10 @@ Thank you for contacting me, Ill be in touch very soon
         <h2>Why Choose SuperFunParties</h2>
         <h4 class='fontone'> My ongoing aim is to have Superfunparties stand out as a one of a kind exceptional experience that can be relied on to provide the very best at kids parties!
 </h4>
-        <p>Being the sole entertainer in the company I guarantee a top quality level of service. I make sure I have enough time for all the kids at each party and I love the work I do so you can be rest assured that I bring 100% every time!<br>
+        <p>Being the sole entertainer in the company I guarantee a top quality level of service.<br>
+          I am a real perfectionist and focus on getting the best costumes, equipment and providing the very best service for your kids party. <br>
+          I am personally invested in each part I do and always consider it a special event that I hope to be a special memory for all the kids involved!<br>
+           I make sure I have enough time for all the kids at each party and I love the work I do so you can be rest assured that I bring 100% every time!<br>
 
 I am always innovating and looking for new things to provide at kids parties, from improving balloon and face paint designs, new activities and party ideas to new costumes and services!</p>
       </div>
@@ -208,7 +214,7 @@ I am always innovating and looking for new things to provide at kids parties, fr
       <div class="col-sm-6">
         <img src="images/balloon1.jpg" class="picture img-rounded" width="350">
         <h4>Balloon Twisting</h4>
-        <p>Always a hit at parties, balloon animals are a guaranteed way to break the ice and get kids involved! <br><a href="#">Read More</a></p>
+        <p>Always a hit at parties, balloon animals are a guaranteed way to break the ice and get kids involved! <br><a href="costumes.html#balloon">Read More</a></p>
       </div>
       <div class="col-sm-6">
         <img src="images/pexels-photo-225025.jpeg" class="picture img-rounded" height="200">
@@ -222,13 +228,13 @@ I am always innovating and looking for new things to provide at kids parties, fr
       <div class="col-sm-6">
         <img src="images/super1.jpg" class="picture img-rounded" width="350">
         <h4>Superheroes!</h4>
-        <p>I love superheroes, always have. I grew up dreaming of being Spiderman and Batman and now I get to live that dream!<br><a href="#">Read More</a>
+        <p>I love superheroes, always have. I grew up dreaming of being Spiderman and Batman and now I get to live that dream!<br><a href="costumes.html#super">Read More</a>
         </p>
       </div>
       <div class="col-sm-6">
         <img src="images/face1.jpg" class="picture   img-rounded" width="350">
         <h4>Face Painting</h4>
-        <p>I love face painting! I've created a very unique point of difference with my face painting which are character designs that go on the cheeks/forehead. <br><a href="#">Read More</a></p>
+        <p>I love face painting! I've created a very unique point of difference with my face painting which are character designs that go on the cheeks/forehead. <br><a href="costumes.html#face">Read More</a></p>
       </div>
 
     </div>
@@ -239,21 +245,21 @@ I am always innovating and looking for new things to provide at kids parties, fr
     <div class="row text-center">
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="http://placehold.it/350x200" class="picture img-rounded">
+          <img src="http://placehold.it/350x200" class="img-rounded">
           <p><strong>Batman</strong></p>
           <p>text about batman</p>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="http://placehold.it/350x200" class="picture img-rounded">
+          <img src="http://placehold.it/350x200" class="img-rounded">
           <p><strong>Clown</strong></p>
           <p>text about clown</p>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="http://placehold.it/350x200" class="picture img-rounded">
+          <img src="http://placehold.it/350x200" class="img-rounded">
           <p><strong>Other</strong></p>
           <p>Text about other </p>
         </div>
@@ -263,7 +269,7 @@ I am always innovating and looking for new things to provide at kids parties, fr
   <div class="container-fluid" id="pricing">
     <div class="text-center">
       <h2>Pricing</h2>
-      <h4>Prices displayed are for more than 15 kids or longer than 2 hours are worked out when booking the party.
+      <h4>Prices are a flat rate and are inclusive of all party activities that we work out when booking the party (balloons, face paint, games, prizes, dress up costume, music etc)
 </h4>
     </div>
     <div class="row">
@@ -273,8 +279,8 @@ I am always innovating and looking for new things to provide at kids parties, fr
             <h1>1 Hour</h1>
           </div>
           <div class="panel-body">
-            <p><strong>15</strong> Kids max</p>
-            <p><strong>Good</strong> mix of activities</p>
+            <p>Up to 10 Kids recommended</p>
+            <p>If more than 10 kids we will do more simple face paint and balloon designs</p>
           </div>
           <div class="panel-footer">
             <h3>$180</h3>
@@ -288,8 +294,8 @@ I am always innovating and looking for new things to provide at kids parties, fr
             <h1>1.5 Hours</h1>
           </div>
           <div class="panel-body">
-            <p><strong>15</strong> Kids max</p>
-            <p><strong>Great</strong> mix of activities</p>
+            <p>Up to 15 Kids recommended</p>
+            <p>If more than 15 kids we will do more simple face paint and balloon designs</p>
 
           </div>
           <div class="panel-footer">
@@ -305,8 +311,8 @@ I am always innovating and looking for new things to provide at kids parties, fr
             <h1>2 Hours</h1>
           </div>
           <div class="panel-body">
-            <p><strong>15</strong> Kids max</p>
-            <p><strong>Best</strong> mix of activities</p>
+            <p>Up to 20 Kids recommended</p>
+            <p>If more than 20 kids we will do more simple face paint and balloon designs</p>
 
           </div>
           <div class="panel-footer">
@@ -325,7 +331,7 @@ I am always innovating and looking for new things to provide at kids parties, fr
       <div class="col-sm-5">
         <p>Contact me and I'll get back to you as soon as I can.</p>
         <p><span class="glyphicon glyphicon-map-marker"></span> Auckland, New Zealand</p>
-        <p><span class="glyphicon glyphicon-phone"></span> 0278737386</p>
+        <p><span class="glyphicon glyphicon-phone"></span> 02 SUPERFUN (0278737386)</p>
         <p><span class="glyphicon glyphicon-envelope"></span> trey@superfunparties.co.nz</p>
       </div>
       <div class="col-sm-7">

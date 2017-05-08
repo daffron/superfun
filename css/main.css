@@ -11,7 +11,7 @@ p {
 }
 
 .jumbotron {
-    background-color: #f4511e;
+    background-color: tomato;
     /* Orange */
     color: #ffffff;
     padding: 100px 25px;
@@ -22,7 +22,7 @@ p {
 }
 
 .backgroundtwo{
-  background-color: #f4511e;
+  background-color: tomato;
   color: white;
 }
 .logo {
@@ -45,12 +45,12 @@ p {
 }
 
 .logo-small {
-    color: #f4511e;
+    color: tomato;
     font-size: 50px;
 }
 
 .logo {
-    color: #f4511e;
+    color: tomato;
     font-size: 200px;
 }
 
@@ -121,15 +121,15 @@ p {
 
 .carousel-control.right, .carousel-control.left {
     background-image: none;
-    color: #f4511e;
+    color: tomato;
 }
 
 .carousel-indicators li {
-    border-color: #f4511e;
+    border-color: tomato;
 }
 
 .carousel-indicators li.active {
-    background-color: #f4511e;
+    background-color: tomato;
 }
 
 .item h4 {
@@ -149,7 +149,7 @@ p {
 
 navbar {
     margin-bottom: 0;
-    background-color: #f4511e !important;
+    background-color: tomato !important;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -163,7 +163,7 @@ navbar {
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #f4511e !important;
+    color: tomato !important;
     background-color: #fff !important;
 }
 
@@ -182,7 +182,7 @@ navbar {
 footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
-    color: #f4511e;
+    color: tomato;
 }
 
 .foot {
@@ -229,7 +229,7 @@ footer .glyphicon {
 /*pricing*/
 
 .panel {
-    border: 1px solid #f4511e;
+    border: 1px solid tomato;
     border-radius:0;
     transition: box-shadow 0.5s;
 }
@@ -239,14 +239,14 @@ footer .glyphicon {
 }
 
 .panel-footer .btn:hover {
-    border: 1px solid #f4511e;
+    border: 1px solid tomato;
     background-color: #fff !important;
-    color: #f4511e;
+    color: tomato;
 }
 
 .panel-heading {
     color: #fff !important;
-    background-color: #f4511e !important;
+    background-color: tomato !important;
     padding: 25px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 0px;
@@ -270,7 +270,7 @@ footer .glyphicon {
 
 .panel-footer .btn {
     margin: 15px 0;
-    background-color: #f4511e;
+    background-color: tomato;
     color: #fff;
 }
 
