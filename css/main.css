@@ -11,7 +11,7 @@ p {
 }
 
 .jumbotron {
-    background-color: tomato;
+    background-color: #e80606;
     /* Orange */
     color: #ffffff;
     padding: 100px 25px;
@@ -22,7 +22,7 @@ p {
 }
 
 .backgroundtwo{
-  background-color: tomato;
+  background-color: #e80606;
   color: white;
 }
 .logo {
@@ -45,12 +45,12 @@ p {
 }
 
 .logo-small {
-    color: tomato;
+    color: #e80606;
     font-size: 50px;
 }
 
 .logo {
-    color: tomato;
+    color: #e80606;
     font-size: 200px;
 }
 
@@ -121,15 +121,15 @@ p {
 
 .carousel-control.right, .carousel-control.left {
     background-image: none;
-    color: tomato;
+    color: #e80606;
 }
 
 .carousel-indicators li {
-    border-color: tomato;
+    border-color: #e80606;
 }
 
 .carousel-indicators li.active {
-    background-color: tomato;
+    background-color: #e80606;
 }
 
 .item h4 {
@@ -149,7 +149,7 @@ p {
 
 navbar {
     margin-bottom: 0;
-    background-color: tomato !important;
+    background-color: #e80606 !important;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -163,7 +163,7 @@ navbar {
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: tomato !important;
+    color: #e80606 !important;
     background-color: #fff !important;
 }
 
@@ -182,7 +182,7 @@ navbar {
 footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
-    color: tomato;
+    color: #e80606;
 }
 
 .foot {
@@ -229,7 +229,7 @@ footer .glyphicon {
 /*pricing*/
 
 .panel {
-    border: 1px solid tomato;
+    border: 1px solid #e80606;
     border-radius:0;
     transition: box-shadow 0.5s;
 }
@@ -239,14 +239,14 @@ footer .glyphicon {
 }
 
 .panel-footer .btn:hover {
-    border: 1px solid tomato;
+    border: 1px solid #e80606;
     background-color: #fff !important;
-    color: tomato;
+    color: #e80606;
 }
 
 .panel-heading {
     color: #fff !important;
-    background-color: tomato !important;
+    background-color: #e80606 !important;
     padding: 25px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 0px;
@@ -270,7 +270,7 @@ footer .glyphicon {
 
 .panel-footer .btn {
     margin: 15px 0;
-    background-color: tomato;
+    background-color: #e80606;
     color: #fff;
 }
 
@@ -280,4 +280,17 @@ footer .glyphicon {
   max-width: 330px;
   max-height: auto;
 
+}
+
+#portfolio {
+    max-height: 100%
+}
+
+
+.rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
 }

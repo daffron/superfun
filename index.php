@@ -111,7 +111,7 @@ Thank you for contacting me, Ill be in touch very soon
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#about">ABOUT</a></li>
           <li><a href="#services">SERVICES</a></li>
-          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <!--<li><a href="#portfolio">PORTFOLIO</a></li>-->
           <li><a href="#pricing">PRICING</a></li>
           <li><a href="#contact">CONTACT</a></li>
         </ul>
@@ -184,7 +184,7 @@ Thank you for contacting me, Ill be in touch very soon
   <div class="container-fluid bg-grey slideanim backgroundtwo img-rounded">
     <div class="row">
       <div class="col-sm-4">
-        <img src="http://placehold.it/350x200" class="picture img-rounded">
+        <img src="images/balloon2.JPG" class="picture img-rounded rotateimg90 " height="280">
       </div>
       <div class="col-sm-8 values">
         <h2>Why Choose SuperFunParties</h2>
@@ -192,7 +192,7 @@ Thank you for contacting me, Ill be in touch very soon
 </h4>
         <p>Being the sole entertainer in the company I guarantee a top quality level of service.<br>
           I am a real perfectionist and focus on getting the best costumes, equipment and providing the very best service for your kids party. <br>
-          I am personally invested in each part I do and always consider it a special event that I hope to be a special memory for all the kids involved!<br>
+          I am personally invested in each party I do and always consider it a special event that I hope to be a special memory for all the kids involved!<br>
            I make sure I have enough time for all the kids at each party and I love the work I do so you can be rest assured that I bring 100% every time!<br>
 
 I am always innovating and looking for new things to provide at kids parties, from improving balloon and face paint designs, new activities and party ideas to new costumes and services!</p>
@@ -239,33 +239,33 @@ I am always innovating and looking for new things to provide at kids parties, fr
 
     </div>
   </div>
-  <div class="container-fluid text-center bg-grey slideanim" id="portfolio">
+  <!--<div class="container-fluid text-center bg-grey slideanim" id="portfolio">
     <h2>Gallery</h2>
     <a href="costumes.html"><h4>See More</h4></a>
-    <div class="row text-center">
+    <div class="row">
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="http://placehold.it/350x200" class="img-rounded">
+          <img src="http://placehold.it/300x200" class="img-rounded">
           <p><strong>Batman</strong></p>
           <p>text about batman</p>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="http://placehold.it/350x200" class="img-rounded">
+          <img src="http://placehold.it/300x200" class="img-rounded">
           <p><strong>Clown</strong></p>
           <p>text about clown</p>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="http://placehold.it/350x200" class="img-rounded">
+          <img src="http://placehold.it/300x200" class="img-rounded">
           <p><strong>Other</strong></p>
           <p>Text about other </p>
         </div>
       </div>
     </div>
-  </div>
+  </div>-->
   <div class="container-fluid" id="pricing">
     <div class="text-center">
       <h2>Pricing</h2>
@@ -354,14 +354,11 @@ I am always innovating and looking for new things to provide at kids parties, fr
     </div>
   </div>
 
-
-
-
   <footer class="container-fluid text-center" id="booking-placeholder">
     <a href="#myPage" title="To Top">
       <span class="glyphicon glyphicon-chevron-up"></span>
     </a>
-    <p class="foot">Superfunparties Limited&copy;<br>Website By Jack Daffron <a href="http:daffron.co" title="Contact">www.daffron.co</a></p>
+    <p class="foot">Superfunparties Limited&copy;<br>Website By <a href="http:daffron.co" title="Contact">Jack Daffron</a></p>
   </footer>
 </body>
 
