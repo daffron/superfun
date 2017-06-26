@@ -296,3 +296,14 @@ footer .glyphicon {
   -o-transform: rotate(89.9deg);
   transform: rotate(89.9deg);
 }
+
+i:hover {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.facebook {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+}

@@ -89,6 +89,7 @@ Thank you for contacting me, Ill be in touch very soon
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Baloo|Chewy|Gloria+Hallelujah" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -202,7 +203,7 @@ I am always innovating and looking for new things to provide at kids parties, fr
   <div class="youtubevideowrap">
 
     <div class="video video-container slideanim">
-      <iframe width="640" height="360" src="https://www.youtube.com/embed/OCWj5xgu5Ng" frameborder="50" allowfullscreen></iframe>
+      <iframe width="640" height="360" src="https://www.youtube.com/embed/6296FDG3T5o" frameborder="50" allowfullscreen></iframe>
     </div>
   </div>
 
@@ -217,7 +218,7 @@ I am always innovating and looking for new things to provide at kids parties, fr
         <p>Always a hit at parties, balloon animals are a guaranteed way to break the ice and get kids involved! <br><a href="costumes.html#balloon">Read More</a></p>
       </div>
       <div class="col-sm-6">
-        <img src="images/pexels-photo-225025.jpeg" class="picture img-rounded" height="200">
+        <img src="images/party.jpg" class="picture img-rounded" width="350">
         <h4>Games and Activities</h4>
         <p>I always come prepared to be able to do a mix of age appropriate games and activities and theme them where possible.</p>
       </div>
@@ -332,7 +333,9 @@ I am always innovating and looking for new things to provide at kids parties, fr
         <p>Contact me and I'll get back to you as soon as I can.</p>
         <p><span class="glyphicon glyphicon-map-marker"></span> Auckland, New Zealand</p>
         <p><span class="glyphicon glyphicon-phone"></span> 02 SUPERFUN (0278737386)</p>
-        <p><span class="glyphicon glyphicon-envelope"></span> trey@superfunparties.co.nz</p>
+        <p><span class="glyphicon glyphicon-envelope"></span> trey@superfunparties.co.nz</p></a>
+        <a href="https://facebook.com/superfunpartiesnz/" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="https://www.youtube.com/channel/UCwouxlIBrYaSxfRnIYByv6g" class="facebook"><i class="fa fa-youtube" aria-hidden="true"></i></a>
       </div>
       <div class="col-sm-7">
         <form name="contactform" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="GET">
