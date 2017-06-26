@@ -120,7 +120,7 @@ Thank you for contacting me, Ill be in touch very soon
     </div>
   </nav>
   <div class="jumbotron text-center">
-    <h1>Welcome to SuperFunParties</h1>
+    <img src="/images/logo 4.png" class="logo-gold">
     <p>Making Kids Parties Superfun!</p>
   </div>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">

@@ -304,6 +304,11 @@ i:hover {
 
 .facebook {
     text-decoration: none;
-    font-size: 22px;
-    color: white;
+    font-size: 22px!important;
+    color: white!important;
+}
+
+.logo-gold {
+    width: 80%;
+    height: auto;
 }
