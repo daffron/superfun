@@ -184,7 +184,7 @@ Thank you for contacting me, Ill be in touch very soon
   <div class="container-fluid bg-grey slideanim backgroundtwo img-rounded">
     <div class="row">
       <div class="col-sm-4">
-        <img src="images/balloon2.JPG" class="picture img-rounded rotateimg90 " height="280">
+        <img src="images/balloon222.jpg" class="picture img-rounded rotateimg90" height="280">
       </div>
       <div class="col-sm-8 values">
         <h2>Why Choose SuperFunParties</h2>
