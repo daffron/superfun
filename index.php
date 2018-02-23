@@ -106,7 +106,7 @@ Thank you for contacting me, Ill be in touch very soon
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Logo</a>
+        <a class="navbar-brand" href="#"></a>
         <a class="navbar-brand" href="tel: 0064278737386">Call Now</a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
