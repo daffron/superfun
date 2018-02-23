@@ -312,3 +312,20 @@ i:hover {
     width: 80%;
     height: auto;
 }
+
+.cara-img {
+    max-height: 450px;
+    max-width: auto;
+}
+
+#main-logo {
+    color: white;
+    font-size: 105px;
+    font-family: 'Anton', sans-serif;
+}
+
+.more-images {
+    max-height: 300px;
+    min-height: 300px;
+    width: auto;
+}

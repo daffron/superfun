@@ -89,6 +89,7 @@ Thank you for contacting me, Ill be in touch very soon
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Baloo|Chewy|Gloria+Hallelujah" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -120,7 +121,8 @@ Thank you for contacting me, Ill be in touch very soon
     </div>
   </nav>
   <div class="jumbotron text-center">
-    <img src="/images/logo 4.png" class="logo-gold">
+    <!-- <img src="/images/logo 4.png" class="logo-gold"> -->
+    <h1 id="main-logo">SUPERFUNPARTIES</h1>
     <p>Making Kids Parties Superfun!</p>
   </div>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -135,19 +137,19 @@ Thank you for contacting me, Ill be in touch very soon
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="images/image1.JPG" class="img-rounded" width="800">
+        <img src="images/updateimg1.jpg" class="img-rounded cara-img">
       </div>
 
       <div class="item">
-        <img src="images/park.jpg" class="picturescroll img-rounded" width="800">
+        <img src="images/updateimg2.jpg" class="picturescroll img-rounded cara-img">
       </div>
 
       <div class="item">
-        <img src="images/image2.JPG" class="picture  img-rounded" width="800">
+        <img src="images/updateimg3.jpg" class="picture  img-rounded cara-img">
       </div>
 
       <div class="item">
-        <img src="http://placehold.it/800x450" class="picture  img-rounded" width="800">
+        <img src="images/updateimg4.jpg" class="picture  img-rounded cara-img">
       </div>
     </div>
 
@@ -168,11 +170,8 @@ Thank you for contacting me, Ill be in touch very soon
         <h4 class='fontone'>A bit about Trey, the company owner:</h4>
         <p>
 
-          Hi there!<br>
-          I grew up on Waiheke Island and have lived in Auckland my whole life. I love music, art, working out, comedy, creating crafty profects and being a dad to my 2 year old daughter!<br>
-          I've been working in kids entertainment for over a year and have worked with various kids party companies.
-          <br> I discovered early on that it's something I love to do and would like to turn it into a professional business of my own
-          so I finished my full time job and focused on building my skills and working full time in the kids party industry (this was also motivated by my daughter being born and wanting more time to spend with her!)</p>
+          Hello!<br>
+          I've been working in kids party entertainment for around 2 years and decided to start my own company as a way to go full time with my passion and provide a real difference in top quality entertainment!</p>
         <a href="#contact"><button class="btn btn-default btn-lg" >Get in Touch</button></a>
       </div>
       <div class="col-sm-4">
@@ -189,14 +188,9 @@ Thank you for contacting me, Ill be in touch very soon
       </div>
       <div class="col-sm-8 values">
         <h2>Why Choose SuperFunParties</h2>
-        <h4 class='fontone'> My ongoing aim is to have Superfunparties stand out as a one of a kind exceptional experience that can be relied on to provide the very best at kids parties!
-</h4>
-        <p>Being the sole entertainer in the company I guarantee a top quality level of service.<br>
-          I am a real perfectionist and focus on getting the best costumes, equipment and providing the very best service for your kids party. <br>
-          I am personally invested in each party I do and always consider it a special event that I hope to be a special memory for all the kids involved!<br>
-           I make sure I have enough time for all the kids at each party and I love the work I do so you can be rest assured that I bring 100% every time!<br>
-
-I am always innovating and looking for new things to provide at kids parties, from improving balloon and face paint designs, new activities and party ideas to new costumes and services!</p>
+        <h4 class='fontone'> My ongoing aim is to have Superfunparties stand out as a one of a kind exceptional experience that can be relied on to provide the very best at kids parties!</h4>
+        <p>Every event is important to me and I strive to make it the best it can be. I personally work on parties and use a handful of trusted entertainers for extra bookings.<br/>
+        I am constantly working on projects to improve all aspects of the company such as 'Carry Me Costumes', face paint designs, balloon animals, toddler activities, puppets, giant bubbles, games, superhero costumes, craft activities and more!</p>
       </div>
     </div>
   </div>
@@ -209,7 +203,7 @@ I am always innovating and looking for new things to provide at kids parties, fr
 
   <div class="container-fluid text-center slideanim  backgroundtwo" id="services">
     <h2>PARTY SERVICES:</h2>
-    <h4>Most parties consists of a mix of games, music, prizes, balloon twisting and face painting. Of course each party is unique and it's often best to talk through what you're wanting and work it out from there.</h4>
+    <h4>Most parties consist of a mix of costume dress up, games, music, balloon twisting and face painting. Of course each party is unique and it's often best to talk through what you're wanting and work it out from there.</h4>
     <br>
     <div class="row">
       <div class="col-sm-6">

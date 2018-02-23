@@ -46,8 +46,7 @@
           The other advantage is speed. I'm able to get lots of kids face
           painting done while maintaining a high level of quality which is really important when having limited time at a party and also doing pure face paint events with a long queue (I don't want kids waiting in line too long!)</p>
       </div>
-      <div class="col-sm-4">
-        <img src="images/face2.jpg" class="picture img-rounded" width="280">
+      <div class="col-sm-4" id="paint-images">
       </div>
     </div>
   </div>
@@ -56,21 +55,15 @@
 
   <div class="container-fluid bg-grey img-rounded" >
     <div class="row">
-      <div class="col-sm-4">
-        <img src="images/park.jpg" class="picture img-rounded" width="280">
-        <img src="images/image1.JPG" class="picture img-rounded topmargin" width="280">
+      <div class="col-sm-4" id="hero-images">
       </div>
       <div class="col-sm-8 values" >
         <h2>More on Superheroes</h2>
 
           <p>
-            I love superheroes, always have. I grew up dreaming of being Spiderman and Batman and now I get to live that dream!<br>Superhero parties are a personal favourite of mine. I am extremely passionate about creating an incredible and "real" superhero experience for kids. A huge part of that is the costume quality.<br>
-            I am a real perfectionist and I won't settle for less than the best so it's taken me over a year to complete my custom created, sized and pieced together Spiderman and Batman costumes!<br>
-            I'm always looking to create new themed things to provide for superhero parties and I've already got a great selection such as superhero face painting, balloon sword fighting, hero glitter tattoos, tug of war, acrobatic stunts and music, and my custom created "superhero power detector" which scans kids for superpowers... very exciting and empowering for them!<br>
-            I also make a themed birthday card to give to the birthday child and give out special superhero "tokens" as prizes.<br>
-            One of my big projects for a long time has been to do real superhero rope swinging, like Batman and Spiderman do in the movies! I've got years of rock climbing experience and rope swinging is a hobby of mine so I've combined all my skills together to be able to do it for real!<br>
-            My idea is to be able to make special videos for the birthday child (to be sent to the parent before the party) of Batman/Spiderman swinging from a rope and then letting the birthday child know Batman/Spiderman is looking forward to coming to their upcoming birthday party!<br>
-            I'm also working on having premium quality costumes for all popular heroes such as Iron Man, Darth Vader, Captain America, Superman etc.</p>
+              Superhero parties are a personal favorite of mine. I am extremely passionate about creating an incredible and "real" superhero experience for kids.<br/>
+              Characters I currently offer are; Spiderman, Batman, Darth Vader, Bumblebee (Transformers), Deadpool and Captain America
+          </p>
       </div>
     </div>
   </div>
@@ -80,16 +73,74 @@
         <h2>More on Balloon Twisting</h2>
         <p>
             Always a hit at parties, balloon animals are a guaranteed way to break the ice and get kids involved! <br>
-           I've created custom made balloon boxes that are portable and allow quick and effective balloon work!<br>
-           Ive also created special "carry me" costumes that go perfectly with purely balloon twisting parties as it gives<br>
-           kids a lot of entertainment while waiting in line for balloons! (Parents are also thoroughly entertained by the costumes!)
+            I've created custom made balloon boxes that are portable and allow quick and effective balloon work!<br/>
+            I've also custom made my 'Carry Me Costumes' which have become the most effective, popular and fun part of the company and are perfect for balloon twisting!<br/>
+            I've got a whole range of characters from bunny, dog, elephant, gorilla, bear and many more to come!<br/>
+            <a href="https://youtu.be/63MIcj9GmCs">View Video</a>
         </p>
       </div>
-      <div class="col-sm-4">
-        <img src="images/balloon2.png" class="picture img-rounded" width="280">
+      <div class="col-sm-4" id="balloon-images">
       </div>
     </div>
   </div>
 </body>
+
+<script>
+  
+  // window.onload = function() {
+    var balloonArray = [
+    'images/balloon2.png',
+    'images/balloon3.jpg',
+    'images/balloon4.jpg'
+    ]
+
+    var heroArray = [
+      'images/hero1.jpg',
+      'images/hero2.jpg',
+      'images/hero3.jpg',
+      'images/hero4.jpg'
+    ]
+
+    var paintArray = [
+      'images/paint1.jpg',
+      'images/paint2.jpg',
+      'images/paint3.jpg',
+      'images/paint4.jpg',
+      'images/paint5.jpg',
+      'images/paint6.jpg',
+      'images/paint7.jpg',
+      'images/paint8.jpg',
+      'images/paint9.jpg',
+    ]
+
+    setInterval(nextPic, 2000)
+    var balloonCount = 0, heroCount = 0, paintCount = 0
+    var buildBalloon = '<img src="' + balloonArray[balloonCount] + '" class="picture img-rounded more-images">'
+    var buildHeroes = '<img src="' + heroArray[heroCount] + '" class="picture img-rounded more-images">'
+    var buildPainting = '<img src="' + paintArray[paintCount] + '" class="picture img-rounded more-images">'
+
+
+    function nextPic() {
+      balloonCount=(balloonCount +1 < balloonArray.length) ? balloonCount+1 : 0
+      buildBalloon = '<img src="' + balloonArray[balloonCount] + '" class="picture img-rounded more-images">'
+
+      heroCount =(heroCount +1 < heroArray.length) ? heroCount+1 : 0
+      buildHeroes = '<img src="' + heroArray[heroCount] + '" class="picture img-rounded more-images">'
+      
+      paintCount=(paintCount +1 < paintArray.length) ? paintCount+1 : 0
+      buildPainting = '<img src="' + paintArray[paintCount] + '" class="picture img-rounded more-images" >'
+
+      
+      document.getElementById('balloon-images').innerHTML = buildBalloon
+      document.getElementById('hero-images').innerHTML = buildHeroes
+      document.getElementById('paint-images').innerHTML = buildPainting
+
+    }
+
+
+
+  // }
+
+</script>
 
 </html>
