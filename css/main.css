@@ -320,12 +320,43 @@ i:hover {
 
 #main-logo {
     color: white;
-    font-size: 105px;
     font-family: 'Anton', sans-serif;
+    max-width: 100%;
+}
+
+@media (min-width: 748px) {
+    #main-logo {
+        font-size: 105px;
+    }
 }
 
 .more-images {
     max-height: 300px;
     min-height: 300px;
     width: auto;
+}
+
+.social {
+    display: flex;
+    margin: 60px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.facebook-container {
+    min-width: 340px;
+}
+
+.instagram-container {
+    min-width: 340px;
+}
+
+@media (max-width: 748px) {
+    .facebook-container {
+        min-width: 100%;
+    }
+    
+    .instagram-container {
+        min-width: 100%;
+    }
 }

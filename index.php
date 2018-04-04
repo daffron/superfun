@@ -94,10 +94,19 @@ Thank you for contacting me, Ill be in touch very soon
   <link rel="stylesheet" href="css/main.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/js/instagram.min.js"></script>
   <script src="js/script.js"></script>
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
@@ -123,7 +132,7 @@ Thank you for contacting me, Ill be in touch very soon
   <div class="jumbotron text-center">
     <!-- <img src="/images/logo 4.png" class="logo-gold"> -->
     <h1 id="main-logo">SUPERFUNPARTIES</h1>
-    <p>Making Kids Parties Superfun!</p>
+    <p>Aucklands premier superhero and specialty costume entertainment</p>
   </div>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -163,6 +172,15 @@ Thank you for contacting me, Ill be in touch very soon
       <span class="sr-only">Next</span>
     </a>
   </div>
+  <div class="social">
+    <div class="facebook-container">
+      <div class="fb-page" data-href="https://www.facebook.com/superfunpartiesnz/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/superfunpartiesnz/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/superfunpartiesnz/">Super fun parties</a></blockquote></div>
+    </div>
+    <div class="instagram-container">
+      <p>Follow me on <a href="https://www.instagram.com/superfunparties/">instagram</a></p>
+      <div id="pixlee_container"></div><script type="text/javascript">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'mAQNuSKlLP3DIxPuUua'});Pixlee.addSimpleWidget({widgetId:'3137'});};</script><script src="//instafeed.assets.pixlee.com/assets/pixlee_widget_1_0_0.js"></script>
+    </div>
+  </div>
   <div class="container-fluid slideanim backgroundtwo topmargin" id="about">
     <div class="row">
       <div class="col-sm-8">
@@ -200,6 +218,7 @@ Thank you for contacting me, Ill be in touch very soon
       <iframe width="640" height="360" src="https://www.youtube.com/embed/6296FDG3T5o" frameborder="50" allowfullscreen></iframe>
     </div>
   </div>
+
 
   <div class="container-fluid text-center slideanim  backgroundtwo" id="services">
     <h2>PARTY SERVICES:</h2>
@@ -278,7 +297,7 @@ Thank you for contacting me, Ill be in touch very soon
             <p>If more than 10 kids we will do more simple face paint and balloon designs</p>
           </div>
           <div class="panel-footer">
-            <h3>$180</h3>
+            <h3>$220</h3>
             <a href="#booking-placeholder"><button class="btn btn-lg">Book Now</button></a>
           </div>
         </div>
@@ -294,7 +313,7 @@ Thank you for contacting me, Ill be in touch very soon
 
           </div>
           <div class="panel-footer">
-            <h3>$220</h3>
+            <h3>$260</h3>
 
             <a href="#booking-placeholder"><button class="btn btn-lg">Book Now</button></a>
           </div>
@@ -311,7 +330,7 @@ Thank you for contacting me, Ill be in touch very soon
 
           </div>
           <div class="panel-footer">
-            <h3>$260</h3>
+            <h3>$300</h3>
 
             <a href="#booking-placeholder"><button class="btn btn-lg">Book Now</button></a>
           </div>
@@ -328,6 +347,7 @@ Thank you for contacting me, Ill be in touch very soon
         <p><span class="glyphicon glyphicon-map-marker"></span> Auckland, New Zealand</p>
         <p><span class="glyphicon glyphicon-phone"></span> 02 SUPERFUN (0278737386)</p>
         <p><span class="glyphicon glyphicon-envelope"></span> trey@superfunparties.co.nz</p></a>
+        <a href="https://www.trademe.co.nz/browse/listing.aspx?id=1355418319">Trademe</a>
         <a href="https://facebook.com/superfunpartiesnz/" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
         <a href="https://www.youtube.com/channel/UCwouxlIBrYaSxfRnIYByv6g" class="facebook"><i class="fa fa-youtube" aria-hidden="true"></i></a>
       </div>
