@@ -70,6 +70,11 @@ p {
   margin-top: 90px;
 }
 .picture {
+    max-height: 450px;
+    width: auto;
+}
+
+.picture-top {
     max-width: 100%;
     height: auto;
 }
@@ -359,4 +364,21 @@ i:hover {
     .instagram-container {
         min-width: 100%;
     }
+}
+
+.review-box {
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    min-height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.review-author {
+    color: #aaa;
+    font-size: 16px;
+    float: right;
 }

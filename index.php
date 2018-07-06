@@ -146,19 +146,19 @@ Thank you for contacting me, Ill be in touch very soon
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="images/updateimg1.jpg" class="img-rounded cara-img">
+        <img src="https://res.cloudinary.com/daffron/image/upload/v1530769761/Superfun/image2_1.png" class="img-rounded cara-img">
       </div>
 
       <div class="item">
-        <img src="images/updateimg2.jpg" class="picturescroll img-rounded cara-img">
+        <img src="https://res.cloudinary.com/daffron/image/upload/v1530769758/Superfun/image3.jpg" class="picturescroll img-rounded cara-img">
       </div>
 
       <div class="item">
-        <img src="images/updateimg3.jpg" class="picture  img-rounded cara-img">
+        <img src="https://res.cloudinary.com/daffron/image/upload/v1530769756/Superfun/image4_2.jpg" class="picture  img-rounded cara-img">
       </div>
 
       <div class="item">
-        <img src="images/updateimg4.jpg" class="picture  img-rounded cara-img">
+        <img src="https://res.cloudinary.com/daffron/image/upload/v1530769754/Superfun/image6_1.jpg" class="picture  img-rounded cara-img">
       </div>
     </div>
 
@@ -189,11 +189,12 @@ Thank you for contacting me, Ill be in touch very soon
         <p>
 
           Hello!<br>
-          I've been working in kids party entertainment for around 2 years and decided to start my own company as a way to go full time with my passion and provide a real difference in top quality entertainment!</p>
+          After working with various kids party companies for a few years as my second job I realised how much I loved being a kids party entertainer and wanted to make my own company so I started it a few years ago and I've been lucky enough to have it be my full time job ever since! (in-between looking after my exceptionally cute 3 year old daughter!)  
+        </p>
         <a href="#contact"><button class="btn btn-default btn-lg" >Get in Touch</button></a>
       </div>
       <div class="col-sm-4">
-        <img src="images/aboutme.jpg" class="picture img-rounded" width="280">
+        <img src="https://res.cloudinary.com/daffron/image/upload/v1530769793/Superfun/image2.png" class="picture-top img-rounded">
       </div>
     </div>
   </div>
@@ -202,13 +203,16 @@ Thank you for contacting me, Ill be in touch very soon
   <div class="container-fluid bg-grey slideanim backgroundtwo img-rounded">
     <div class="row">
       <div class="col-sm-4">
-        <img src="images/balloon222.jpg" class="picture img-rounded rotateimg90" height="280">
+        <img src="https://res.cloudinary.com/daffron/image/upload/v1530769791/Superfun/image6png.png" class="picture-top img-rounded">
       </div>
       <div class="col-sm-8 values">
         <h2>Why Choose SuperFunParties</h2>
-        <h4 class='fontone'> My ongoing aim is to have Superfunparties stand out as a one of a kind exceptional experience that can be relied on to provide the very best at kids parties!</h4>
-        <p>Every event is important to me and I strive to make it the best it can be. I personally work on parties and use a handful of trusted entertainers for extra bookings.<br/>
-        I am constantly working on projects to improve all aspects of the company such as 'Carry Me Costumes', face paint designs, balloon animals, toddler activities, puppets, giant bubbles, games, superhero costumes, craft activities and more!</p>
+        <h4 class='fontone'>My aim is to provide the "wow" factor.</h4>
+        <p>
+          I strive to have Superfunparties stand out as an exceptional experience that can be relied on to provide the very best at kids parties!<br/>
+          I am constantly working on making my entertainment better in all aspects of what I provide.<br/>
+          Each event is very important to me and there are many hours spent preparing for your party on top of the constant training and upgrading of the Superfunparties experience!
+        </p>
       </div>
     </div>
   </div>
@@ -222,64 +226,70 @@ Thank you for contacting me, Ill be in touch very soon
 
   <div class="container-fluid text-center slideanim  backgroundtwo" id="services">
     <h2>PARTY SERVICES:</h2>
-    <h4>Most parties consist of a mix of costume dress up, games, music, balloon twisting and face painting. Of course each party is unique and it's often best to talk through what you're wanting and work it out from there.</h4>
+    <a href="/costumes.html/#games">Read More</a>
+
     <br>
     <div class="row">
-      <div class="col-sm-6">
-        <img src="images/balloon1.jpg" class="picture img-rounded" width="350">
-        <h4>Balloon Twisting</h4>
-        <p>Always a hit at parties, balloon animals are a guaranteed way to break the ice and get kids involved! <br><a href="costumes.html#balloon">Read More</a></p>
+    <div class="col-sm-6">
+        <img src="https://res.cloudinary.com/daffron/image/upload/v1530769753/Superfun/image6.jpg" class="picture img-rounded">
+        <h4>Superheroes!</h4>
+        <p>
+          Bringing real deal superheroes to the party! <br><a href="costumes.html#super">Read More</a>
+        </p>
       </div>
+      
       <div class="col-sm-6">
-        <img src="images/party.jpg" class="picture img-rounded" width="350">
-        <h4>Games and Activities</h4>
-        <p>I always come prepared to be able to do a mix of age appropriate games and activities and theme them where possible.</p>
+        <img src="https://res.cloudinary.com/daffron/image/upload/v1530843981/Superfun/image1_1.png" class="picture img-rounded" >
+        <h4>Piggy Back Costumes</h4>
+        <p>How does that work?!<br><a href="costumes.html#piggyback">Read More</a></p>
       </div>
 
     </div>
     <br><br>
     <div class="row">
       <div class="col-sm-6">
-        <img src="images/super1.jpg" class="picture img-rounded" width="350">
-        <h4>Superheroes!</h4>
-        <p>I love superheroes, always have. I grew up dreaming of being Spiderman and Batman and now I get to live that dream!<br><a href="costumes.html#super">Read More</a>
-        </p>
+        <img src="images/balloon1.jpg" class="picture img-rounded">
+        <h4>Balloon Twisting</h4>
+        <p>Always a hit at parties, balloon animals are a guaranteed way to break the ice and get kids involved! <br><a href="costumes.html#balloon">Read More</a></p>
       </div>
       <div class="col-sm-6">
-        <img src="images/face1.jpg" class="picture   img-rounded" width="350">
+        <img src="https://res.cloudinary.com/daffron/image/upload/v1530842293/Superfun/IMG_2862.jpg" class="picture   img-rounded" >
         <h4>Face Painting</h4>
-        <p>I love face painting! I've created a very unique point of difference with my face painting which are character designs that go on the cheeks/forehead. <br><a href="costumes.html#face">Read More</a></p>
+        <p>Stencil face painting: a great addition to the party!<br><a href="costumes.html#face">Read More</a></p>
       </div>
 
     </div>
   </div>
-  <!--<div class="container-fluid text-center bg-grey slideanim" id="portfolio">
-    <h2>Gallery</h2>
-    <a href="costumes.html"><h4>See More</h4></a>
+  <div class="container-fluid text-center bg-grey slideanim" id="portfolio">
+    <h2>Testimonials</h2>
     <div class="row">
       <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="http://placehold.it/300x200" class="img-rounded">
-          <p><strong>Batman</strong></p>
-          <p>text about batman</p>
+        <div class="review-box">
+          <p>
+            "VERY VERY VERY HIGHLY RECOMMENDED If you are looking for the perfect children's party entertainment, then look no further. We used Trey for our daughter's 3rd birthday and couldn't have been more impressed with the standard of the service provided. Trey's ability to capture, engage with and maintain the kids attention with his piggy-back costume, balloon creations and super bubbles was incredible. Definitely the highlight of the day and we already looking at using him again in the future."
+          </p>
+          <p class="review-author">- snedds1 (Trademe)</p>
         </div>
       </div>
       <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="http://placehold.it/300x200" class="img-rounded">
-          <p><strong>Clown</strong></p>
-          <p>text about clown</p>
+        <div class="review-box">
+          <p>
+            "A-MAZE-ING!!! We had Spiderman (aka Trey) come to entertain our two boys and their friends at their birthday party.... and WOW! His entrance was stunning, his agility, well, very flexible :-) He kept those kids (and us adults) completely wrapped for over 90 minutes. Dancing, chasing, balloon tricks, bubble magic - even super hero power scanning. I can't rate Superfun Kids Parties enough. The boys haven't stopped talking about him. We will definately be using them for future kids parties."
+          </p>
+          <p class="review-author">- squoodles (Trademe)</p>
         </div>
       </div>
       <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="http://placehold.it/300x200" class="img-rounded">
-          <p><strong>Other</strong></p>
-          <p>Text about other </p>
+        <div class="review-box">
+          <p>
+            "90 minutes... thats how long we paid him.. 2 weeks is how long my 5 year old boy couldn't stop talking about him!! He kept a big group of kids entertained for the full 90 min and had an endless bag of tricks. I cant recommend Trey enough... Amazing entertainer.. highly recommended!"
+          </p>
+          <p class="review-author">- nutta3 (Trademe)</p>
         </div>
       </div>
+      <p class="review-author">*All of the reviews come from my Trademe page: Superfunparties, and are 100% from my clients. </p>
     </div>
-  </div>-->
+  </div>
   <div class="container-fluid" id="pricing">
     <div class="text-center">
       <h2>Pricing</h2>
