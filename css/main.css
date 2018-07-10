@@ -72,6 +72,7 @@ p {
 .picture {
     max-height: 450px;
     width: auto;
+    max-width: 100%;
 }
 
 .picture-top {
@@ -286,11 +287,6 @@ footer .glyphicon {
   max-height: auto;
 
 }
-
-#portfolio {
-    max-height: 100%
-}
-
 
 .rotateimg90 {
     display: block;
